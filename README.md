@@ -2,6 +2,11 @@
 
 <TODO: complete this with an overview of your project>
 
+[![Python application test with Github Actions](https://github.com/storeagles/Building_CICD_Pipeline/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/storeagles/Building_CICD_Pipeline/actions/workflows/pythonapp.yml)
+
+
+
+
 ## Project Plan
 <TODO: Project Plan
 
