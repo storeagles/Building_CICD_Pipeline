@@ -26,15 +26,19 @@ stages:
       pool: myAgentPool
       steps:    
       - script: |
+          python3.9 -m venv venv
+          source venv/bin/activate
           python3.9 -m pip install --upgrade pip
           python3.9 -m pip install -r requirements.txt
         workingDirectory: $(projectRoot)
         displayName: 'Step 1'
       - script: |
+          source venv/bin/activate
           make install
         workingDirectory: $(projectRoot)
         displayName: 'Step 2'
       - script: |
+          source venv/bin/activate
           make install
           make lint
         workingDirectory: $(projectRoot)
