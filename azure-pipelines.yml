@@ -27,7 +27,6 @@ stages:
       steps:    
       - script: |
           python3.9 -m pip install --upgrade pip
-          python3.9 -m pip install setup
           python3.9 -m pip install -r requirements.txt
         workingDirectory: $(projectRoot)
         displayName: 'Step 1'
@@ -76,4 +75,4 @@ stages:
                 azureSubscription: $(azureServiceConnectionId)
                 appName: $(webAppName)
                 package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip 
-                appType: webApp
+                appType: webAppLinux
