@@ -13,8 +13,6 @@ variables:
     webAppName: 'makca3app' 
     # Environment name
     environmentName: 'venv'
-    # Python version
-    pythonVersion: '3.9'
     # Project root folder. Point to the folder containing manage.py file.
     projectRoot: $(System.DefaultWorkingDirectory)
   
