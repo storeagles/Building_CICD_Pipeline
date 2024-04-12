@@ -30,11 +30,13 @@ stages:
           python3.9 -m pip install -r requirements.txt
         workingDirectory: $(projectRoot)
         displayName: 'Step 1'
+
       - script: |
           source venv/bin/activate
           make install
         workingDirectory: $(projectRoot)
         displayName: 'Step 2'
+        
       - script: |
           source venv/bin/activate
           make install
