@@ -12,7 +12,7 @@ variables:
     azureServiceConnectionId: 'myServiceConnection'  
     webAppName: 'makca3app' 
     # Environment name
-    environmentName: 'makca3app'
+    environmentName: 'venv'
     # Python version
     pythonVersion: '3.9'
     # Project root folder. Point to the folder containing manage.py file.
