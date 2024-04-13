@@ -92,6 +92,6 @@ Virtual Machine service in Azure Portal is an agent. And this agent is associate
 We can also deploy our infrastructure as code by deploying terraform infrastructure with packer template. 
 
 ## Demo 
-[A link](https://www.youtube.com/watch?v=m7zBF7_-3nA) Screencast on YouTube
+[A link](https://www.youtube.com/watch?v=NSvBtcyP-Vo) Screencast on YouTube
 
 
